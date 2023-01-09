@@ -15,6 +15,9 @@
 		DD9196302969E6B20027BDB9 /* WorkoutAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD91962F2969E6B20027BDB9 /* WorkoutAppTests.swift */; };
 		DD91963A2969E6B20027BDB9 /* WorkoutAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9196392969E6B20027BDB9 /* WorkoutAppUITests.swift */; };
 		DD91963C2969E6B20027BDB9 /* WorkoutAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD91963B2969E6B20027BDB9 /* WorkoutAppUITestsLaunchTests.swift */; };
+		DD919687296C29EB0027BDB9 /* TapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD919686296C29EB0027BDB9 /* TapBarController.swift */; };
+		DD91968B296C2BCB0027BDB9 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD91968A296C2BCB0027BDB9 /* UIColor + ext.swift */; };
+		DD91968E296C2D980027BDB9 /* Resouces.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD91968D296C2D980027BDB9 /* Resouces.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		DD9196352969E6B20027BDB9 /* WorkoutAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9196392969E6B20027BDB9 /* WorkoutAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutAppUITests.swift; sourceTree = "<group>"; };
 		DD91963B2969E6B20027BDB9 /* WorkoutAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD919686296C29EB0027BDB9 /* TapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarController.swift; sourceTree = "<group>"; };
+		DD91968A296C2BCB0027BDB9 /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
+		DD91968D296C2D980027BDB9 /* Resouces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resouces.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,10 @@
 		DD9196172969E6AD0027BDB9 /* WorkoutApp */ = {
 			isa = PBXGroup;
 			children = (
+				DD919689296C2B8C0027BDB9 /* Helpers */,
 				DD9196482969EDF00027BDB9 /* Application */,
 				DD91961C2969E6AD0027BDB9 /* ViewController.swift */,
+				DD919686296C29EB0027BDB9 /* TapBarController.swift */,
 				DD9196492969EE3A0027BDB9 /* SupportingFiles */,
 			);
 			path = WorkoutApp;
@@ -138,6 +146,23 @@
 				DD9196262969E6B10027BDB9 /* Info.plist */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		DD919689296C2B8C0027BDB9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DD91968C296C2BED0027BDB9 /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DD91968C296C2BED0027BDB9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD91968A296C2BCB0027BDB9 /* UIColor + ext.swift */,
+				DD91968D296C2D980027BDB9 /* Resouces.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +298,9 @@
 				DD91961D2969E6AD0027BDB9 /* ViewController.swift in Sources */,
 				DD9196192969E6AD0027BDB9 /* AppDelegate.swift in Sources */,
 				DD91961B2969E6AD0027BDB9 /* SceneDelegate.swift in Sources */,
+				DD91968B296C2BCB0027BDB9 /* UIColor + ext.swift in Sources */,
+				DD91968E296C2D980027BDB9 /* Resouces.swift in Sources */,
+				DD919687296C29EB0027BDB9 /* TapBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
